@@ -4,11 +4,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "infa.txt";  
-        String outputFilePath = "vivod.svc";  // Результат
+        String filePath = "infa.txt";  //Ввод
+        String outputFilePath = "vivod.svc";  //Вывод
 
         try {
-            // Чтение файла
+            // Читаем файл
             String content = new String(Files.readAllBytes(Paths.get(filePath)));
 
             // Подсчет количества символов
